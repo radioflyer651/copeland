@@ -5,10 +5,10 @@ using System.Text;
 using System.Text.Json.Nodes;
 using System.Threading.Tasks;
 
-namespace Copeland.SensorParser.DataNormalization
+namespace Copeland.SensorParser.ApplicationServices
 {
-    public interface IDataNormalizer
+    public interface IDataLoader
     {
-        IEnumerable<NormalizedData> NormalizeObject(JsonObject element);
+        IEnumerable<JsonObject> LoadData();
     }
 }

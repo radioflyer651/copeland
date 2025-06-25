@@ -10,7 +10,7 @@ using Copeland.SensorParser.DataNormalization.Foo2.DataModel;
 
 namespace Copeland.SensorParser.DataNormalization.Foo1
 {
-    public class Foo1DataNormalizer : IDataNormalizer
+    public class Foo1DataNormalizer : IDataNormalizerService
     {
         public const int PartnerIdValue = 1;
         public const string PartnerIdKey = "PartnerId";

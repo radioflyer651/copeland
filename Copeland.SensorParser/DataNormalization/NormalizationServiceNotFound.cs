@@ -2,13 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Text.Json.Nodes;
 using System.Threading.Tasks;
 
 namespace Copeland.SensorParser.DataNormalization
 {
-    public interface IDataNormalizer
+    public class NormalizationServiceNotFound:Exception
     {
-        IEnumerable<NormalizedData> NormalizeObject(JsonObject element);
+        public NormalizationServiceNotFound(): base("Normalization service not found for data object.") { }
     }
 }
