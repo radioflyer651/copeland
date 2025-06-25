@@ -26,7 +26,13 @@ namespace Copeland.SensorParser.ApplicationServices
             var files = Directory.GetFiles(_baseFolderPath);
 
             // Convert them to JsonObjects and return them.  We're assuming the data format's are right without error handling.
-            var data = files.Select(f => File.ReadAllBytes(f));
+            var data = files.Select(f => File.ReadAllText(f)).ToList();
+
+            foreach (var d in data)
+            {
+                Console.WriteLine(d);
+            }
+
             return data.Select(d => JsonSerializer.Deserialize<JsonElement>(d)!)
                     .Select(e => JsonSerializer.Deserialize<JsonObject>(e)!)
                     .ToList();

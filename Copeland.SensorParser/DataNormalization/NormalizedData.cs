@@ -27,7 +27,7 @@ namespace Copeland.SensorParser.DataNormalization
 
         public int? HumidityCount { get; set; }
 
-        public double? AverageHumdity { get; set; }
+        public double? AverageHumidity { get; set; }
 
         /// <summary>
         /// Sets the temperature and humidity data from a specified set of sensor data.
@@ -46,7 +46,7 @@ namespace Copeland.SensorParser.DataNormalization
             if (groups.TryGetValue(NormalizedSensorDataTypes.Humidity, out var humidityVals))
             {
                 HumidityCount = humidityVals.Length;
-                AverageHumdity = humidityVals.Average(x => x.Value);
+                AverageHumidity = humidityVals.Average(x => x.Value);
             }
 
             // Get the sensor date/times, in order, for performance.

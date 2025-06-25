@@ -15,8 +15,14 @@ namespace Copeland.SensorParser.ApplicationServices
         public FileDataSaver()
         {
             // Set the out folder.
-            var intermediatePath = Path.Join(AppContext.BaseDirectory, "..", "..", "..", "..", "data");
-            _outFilePath = Path.Join(intermediatePath, "output");
+            var intermediatePath = Path.Join(AppContext.BaseDirectory, "..", "..", "..", "..", "data", "output");
+            _outFilePath = Path.Join(intermediatePath, "output.json");
+
+            // We assume the data folder exists, leaving just the question of the output folder.
+            if (!Directory.Exists(intermediatePath))
+            {
+                Directory.CreateDirectory(intermediatePath);
+            }
         }
 
         public void Save(IEnumerable<NormalizedData> data)

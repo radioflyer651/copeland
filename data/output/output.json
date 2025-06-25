@@ -9,7 +9,7 @@
         "TemperatureCount": 3,
         "AverageTemperature": 23.149999618530273,
         "HumidityCount": 3,
-        "AverageHumdity": 81.5
+        "AverageHumidity": 81.5
     },
     {
         "CompanyId": 1,
@@ -21,7 +21,7 @@
         "TemperatureCount": 3,
         "AverageTemperature": 24.149999618530273,
         "HumidityCount": 3,
-        "AverageHumdity": 82.5
+        "AverageHumidity": 82.5
     },
     {
         "CompanyId": 2,
@@ -33,7 +33,7 @@
         "TemperatureCount": 3,
         "AverageTemperature": 33.150001525878906,
         "HumidityCount": 3,
-        "AverageHumdity": 91.5
+        "AverageHumidity": 91.5
     },
     {
         "CompanyId": 2,
@@ -45,6 +45,6 @@
         "TemperatureCount": 3,
         "AverageTemperature": 43.150001525878906,
         "HumidityCount": 3,
-        "AverageHumdity": 92.5
+        "AverageHumidity": 92.5
     }
 ]

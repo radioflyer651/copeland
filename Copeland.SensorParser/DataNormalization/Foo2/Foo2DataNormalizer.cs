@@ -25,7 +25,7 @@ namespace Copeland.SensorParser.DataNormalization.Foo2
                 return false;
             }
 
-            // Ensure the PartnerName is a match for our target type.
+            // Ensure the CompanyId is a match for our target type.
             if (!int.TryParse(jsonObject[CompanyIdKey]!.ToString(), out var companyId))
             {
                 return false;
