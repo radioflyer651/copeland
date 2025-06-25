@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Copeland.SensorParser.DataNormalization;
+using Copeland.SensorParser.DataNormalization.DataModel;
 
 namespace Copeland.SensorParser.ApplicationServices
 {

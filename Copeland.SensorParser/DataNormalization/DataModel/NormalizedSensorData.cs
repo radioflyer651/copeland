@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Copeland.SensorParser.DataNormalization
+namespace Copeland.SensorParser.DataNormalization.DataModel
 {
     public enum NormalizedSensorDataTypes
     {

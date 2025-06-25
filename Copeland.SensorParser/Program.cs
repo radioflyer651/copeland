@@ -1,4 +1,5 @@
-﻿using System.Text.Json;
+﻿using System.Runtime.CompilerServices;
+using System.Text.Json;
 using System.Text.Json.Nodes;
 using Copeland.SensorParser.ApplicationServices;
 using Copeland.SensorParser.DataNormalization;
@@ -6,10 +7,10 @@ using Copeland.SensorParser.DataNormalization.Foo1;
 using Copeland.SensorParser.DataNormalization.Foo2;
 using Microsoft.Extensions.DependencyInjection;
 
+[assembly: InternalsVisibleTo("Copeland.SensorParser.Tests")]
+
 namespace Copeland.SensorParser
 {
-
-
     public static class Program
     {
         static Program()
@@ -44,7 +45,6 @@ namespace Copeland.SensorParser
             // Process the data.
             processor.ProcessData();
         }
-
     }
 
 }

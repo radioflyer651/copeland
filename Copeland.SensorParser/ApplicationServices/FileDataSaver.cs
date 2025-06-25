@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
-using Copeland.SensorParser.DataNormalization;
+using Copeland.SensorParser.DataNormalization.DataModel;
 
 namespace Copeland.SensorParser.ApplicationServices
 {

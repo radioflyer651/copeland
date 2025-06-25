@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Copeland.SensorParser.DataNormalization.Foo2.DataModel;
 
-namespace Copeland.SensorParser.DataNormalization
+namespace Copeland.SensorParser.DataNormalization.DataModel
 {
     public class NormalizedData
     {

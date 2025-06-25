@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Copeland.SensorParser", "Copeland.SensorParser\Copeland.SensorParser.csproj", "{1CD82828-95FB-4092-B267-269280E803B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Copeland.SensorParser.Tests", "Copeland.SensorParser.Tests\Copeland.SensorParser.Tests.csproj", "{C793993E-6F19-4D92-94A0-A487152FEBA8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{1CD82828-95FB-4092-B267-269280E803B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CD82828-95FB-4092-B267-269280E803B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CD82828-95FB-4092-B267-269280E803B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C793993E-6F19-4D92-94A0-A487152FEBA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C793993E-6F19-4D92-94A0-A487152FEBA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C793993E-6F19-4D92-94A0-A487152FEBA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C793993E-6F19-4D92-94A0-A487152FEBA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70A2D7D1-B83D-4DCC-AC93-61B1C65EE583}
 	EndGlobalSection
 EndGlobal
