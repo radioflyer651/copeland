@@ -11,15 +11,12 @@ namespace Copeland.SensorParser
 {
     public static class Program
     {
+        private static ServiceProvider _services;
+
         static Program()
         {
             _services = InitializeServices();
         }
-
-        public static string File1Path = "DeviceDataFoo1.json";
-        public static string File2Path = "DeviceDataFoo2.json";
-
-        private static ServiceProvider _services;
 
         private static ServiceProvider InitializeServices()
         {
