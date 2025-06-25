@@ -4,7 +4,7 @@
 
 ## Inputs & Outputs:
   - Sensor data is placed in the `data` folder.
-    - Any file directly in this file is regarded as data and pulled in for processing.
+    - Any file directly in this folder is regarded as data and pulled in for processing.
   - The `data` folder has an `output` folder, where the app outputs are placed.
 
 ## General Overview
