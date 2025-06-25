@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Copeland.SensorParser.DataNormalization;
+﻿using Copeland.SensorParser.DataNormalization;
 
 namespace Copeland.SensorParser.ApplicationServices
 {
@@ -30,7 +25,7 @@ namespace Copeland.SensorParser.ApplicationServices
             var data = _loader.LoadData();
 
             // Normalize it.
-            var normalizeData = data.Select(d => _normalizer.NormalizeObject(d)).SelectMany(d => d);
+            var normalizeData = data.Select(d => _normalizer.NormalizeObject(d)).SelectMany(f => f);
 
             // Save the data.
             _saver.Save(normalizeData);

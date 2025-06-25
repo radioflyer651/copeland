@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Copeland.SensorParser.DataNormalization.Foo2.DataModel;
-
-namespace Copeland.SensorParser.DataNormalization.DataModel
+﻿namespace Copeland.SensorParser.DataNormalization.DataModel
 {
     public class NormalizedData
     {

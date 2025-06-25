@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Copeland.SensorParser.DataNormalization.Foo2.DataModel
+﻿namespace Copeland.SensorParser.DataNormalization.Foo2.DataModel
 {
     public class Device
     {
