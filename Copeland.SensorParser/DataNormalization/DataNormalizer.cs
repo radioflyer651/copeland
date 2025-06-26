@@ -29,7 +29,7 @@ namespace Copeland.SensorParser.DataNormalization
             // If not found, then we can't do much.
             if (service == null)
             {
-                throw new NormalizationServiceNotFound();
+                throw new NormalizationServiceNotFoundException();
             }
 
             // Return the normalized data.

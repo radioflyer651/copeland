@@ -112,7 +112,7 @@ namespace Copeland.SensorParser.Tests.DataNormalization
             var action = () =>  _sut.NormalizeObject(target);
 
             // Assert
-            action.Should().Throw<NormalizationServiceNotFound>();
+            action.Should().Throw<NormalizationServiceNotFoundException>();
             Repository.VerifyAll();
 
 
